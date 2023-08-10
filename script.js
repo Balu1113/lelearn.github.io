@@ -49,3 +49,12 @@ document
 
     window.location.href = "lelearn.html";
   });
+
+function getLoggedInUsername() {
+  return "username";
+}
+const profileIcon = document.getElementById("profile-icon");
+const user = document.getElementById("username");
+const logggedInUsername = getLoggedInUsername();
+user.textContent = logggedInUsername;
+profileIcon.title = "Logged in as" + logggedInUsername;
