@@ -9,11 +9,70 @@
     <!-- Fontawesome CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <header>LELEARN</header>
+    <style>
+        .logo{
+          text-align: center;
+          color:aliceblue;
+        }
+        /* Add custom CSS for fixing image size */
+        .course-card img {
+          width: 200px; /* Set the desired width */
+          height: 150px; /* Set the desired height */
+          object-fit: cover;
+        }
+        .lib {
+          padding-left: 60px;
+         
+        }
+        /* Add margin-right to login button container */
+        .login-container {
+          margin-right: 10px;
+          padding-left: 20px;
+        }
+        .register-container{
+          margin-right: 10px;
+          padding-right: 20px;}
+        .css-w1paca-NewregisterCTA {
+      background-color: #04AA6D;
+      border: none;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+      </style>
 </head>
 
 <body>
-   
+    <header>
+        <nav>
+          <div class="logo">
+            <h1>LELEARN</h1>
+          </div>
+          <ul class="w3-bar w3-white w3-card" id="myNavbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Courses</a></li>
+            <li ><a href="resources.html">resources</a></li>
+            <div class="topnav">
+              <input type="text" placeholder="Search..">
+            </div>
+            <!-- Add a login container and apply margin-right -->
+            <div class="login-container">
+              <a href="login.html">
+                <button type="button" class="e13239452 aquilla-button button css-w0paca-NewLoginCTA" action="login.html" target="_blank">
+                <span class="button--label-content css-0">Log in</span>
+              </button></a>
+            </div>
+            
+          </ul>
+        </nav>
+        <break ></break>
+        <section>
     <div class="container">
         <input type="checkbox" id="flip">
         <div class="cover">
@@ -88,7 +147,8 @@
         </div>
     </div>
     <script src="script.js"></script>
-
+        </section>
+    </header>
 </body>
 
 </html>
