@@ -458,19 +458,19 @@ body{
 }
 @media (max-width: 100%) {
   .container .cover{
-    display: none;
+    display:flexbox;
   }
   .form-content .loginform,
   .form-content .registrationform{
     width: 100%;
   }
   .form-content .registrationform{
-    display: none;
+    display:flexbox;
   }
   .container #flip:checked ~ .forms .registrationform{
-    display: block;
+    display:flexbox;
   }
   .container #flip:checked ~ .forms .loginform{
-    display: none;
+    display:flexbox;
   }
 }
