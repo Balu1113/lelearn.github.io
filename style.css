@@ -25,7 +25,36 @@ ul {
   gap: 16px;
 }
 
+@media only screen and (max-width: 47.95em) {
+  .css-1koxx9i-LoginCTAWrapper {
+      width:100%;
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      -webkit-justify-content: end;
+      justify-content: end;
+      gap: 8px;
+  }
+}
+  .css-1sk7ptd-NewLoginCTA {
+      padding: 12px 20px;
+      width: 104px;
+      height: 40px;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 16px;
+      white-space: nowrap;
+  }
 
+  @media only screen and (max-width: 47.95em) {
+      .css-1sk7ptd-NewLoginCTA {
+          padding:8px 14px;
+          height: 32px;
+          width: unset;
+          min-width: 64px;
+          max-width: 96px;
+      }
+  }
   
   .css-w0paca-NewLoginCTA {
       padding: 10px 24px;
@@ -70,6 +99,72 @@ ul {
   .css-w0paca-NewLoginCTA:active {
       background: #E9EEF2;
       border-color: #3C4852;
+  }
+
+  @media only screen and (max-width: 47.95em) {
+      .css-w0paca-NewLoginCTA {
+          padding:8px 14px;
+          height: 32px;
+          width: unset;
+          min-width: 64px;
+          max-width: 96px;
+      }
+  }
+  .css-e8l3el-NewLoginCTA {
+      padding: 10px 24px;
+      box-sizing: border-box;
+      border-radius: 8px;
+      background: #3C4852;
+      border: 1px solid #3C4852;
+      font-size: 14px;
+      color: #FFFFFF;
+      line-height: 20px;
+      font-weight: 700;
+      min-width: 100px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-align-items: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      height: 40px;
+      cursor: pointer;
+      padding: 12px 20px;
+      width: 104px;
+      height: 40px;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 16px;
+      white-space: nowrap;
+  }
+
+  .css-e8l3el-NewLoginCTA:hover,.css-e8l3el-NewLoginCTA:focus {
+      background: #364049;
+  }
+
+  .css-e8l3el-NewLoginCTA:active {
+      background: #1E2429;
+      border-color: #1E2429;
+  }
+
+  @media only screen and (max-width: 47.95em) {
+      .css-e8l3el-NewLoginCTA {
+          padding:8px 14px;
+          height: 32px;
+          width: unset;
+          min-width: 64px;
+          max-width: 96px;
+      }
   }
 
 li {
@@ -361,15 +456,7 @@ body{
 .container #flip{
   display: none;
 }
-.column{
-  width: 100%;
-}
-@media (max-width: 1000px) {
-  .column{
-    width:50%;
-    flex-basis: 100%;
-  }
-}
+@media (max-width: 100%) {
   .container .cover{
     display: none;
   }
@@ -386,3 +473,4 @@ body{
   .container #flip:checked ~ .forms .loginform{
     display: none;
   }
+}
