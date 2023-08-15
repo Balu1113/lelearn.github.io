@@ -19,44 +19,7 @@ ul {
   margin: 0;
   padding: 0;
 }
-.css-1koxx9i-LoginCTAWrapper {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 16px;
-}
 
-@media only screen and (max-width: 47.95em) {
-  .css-1koxx9i-LoginCTAWrapper {
-      width:100%;
-      -webkit-box-pack: end;
-      -ms-flex-pack: end;
-      -webkit-justify-content: end;
-      justify-content: end;
-      gap: 8px;
-  }
-}
-  .css-1sk7ptd-NewLoginCTA {
-      padding: 12px 20px;
-      width: 104px;
-      height: 40px;
-      border-radius: 6px;
-      font-weight: 600;
-      font-size: 14px;
-      line-height: 16px;
-      white-space: nowrap;
-  }
-
-  @media only screen and (max-width: 47.95em) {
-      .css-1sk7ptd-NewLoginCTA {
-          padding:8px 14px;
-          height: 32px;
-          width: unset;
-          min-width: 64px;
-          max-width: 96px;
-      }
-  }
   
   .css-w0paca-NewLoginCTA {
       padding: 10px 24px;
@@ -94,15 +57,7 @@ ul {
       line-height: 16px;
       white-space: nowrap;
   }
-  .css-w0paca-NewLoginCTA:hover,.css-w0paca-NewLoginCTA:focus {
-      background: #F7F9FB;
-  }
-
-  .css-w0paca-NewLoginCTA:active {
-      background: #E9EEF2;
-      border-color: #3C4852;
-  }
-
+  
   @media only screen and (max-width: 47.95em) {
       .css-w0paca-NewLoginCTA {
           padding:8px 14px;
@@ -112,52 +67,11 @@ ul {
           max-width: 96px;
       }
   }
-  .css-e8l3el-NewLoginCTA {
-      padding: 10px 24px;
-      box-sizing: border-box;
-      border-radius: 8px;
-      background: #3C4852;
-      border: 1px solid #3C4852;
-      font-size: 14px;
-      color: #FFFFFF;
-      line-height: 20px;
-      font-weight: 700;
-      min-width: 100px;
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-      flex-direction: row;
-      -webkit-align-items: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      -webkit-justify-content: center;
-      justify-content: center;
-      height: 40px;
-      cursor: pointer;
-      padding: 12px 20px;
-      width: 104px;
-      height: 40px;
-      border-radius: 6px;
-      font-weight: 600;
-      font-size: 14px;
-      line-height: 16px;
-      white-space: nowrap;
-  }
+  
 
-  .css-e8l3el-NewLoginCTA:hover,.css-e8l3el-NewLoginCTA:focus {
-      background: #364049;
-  }
+  
 
-  .css-e8l3el-NewLoginCTA:active {
-      background: #1E2429;
-      border-color: #1E2429;
-  }
+  
 
   @media only screen and (max-width: 47.95em) {
       .css-e8l3el-NewLoginCTA {
@@ -204,61 +118,6 @@ footer {
 
 img {
   padding-top:150px;
-}
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  padding-top: 60px;
-}
-
-/* Modal Content/Box */
-.modal-content {
-  background-color: #fefefe;
-  margin: 5px auto; /* 15% from the top and centered */
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
-}
-
-/* The Close Button */
-.close {
-  /* Position it in the top right corner outside of the modal */
-  position: absolute;
-  right: 25px;
-  top: 0;
-  color: #000;
-  font-size: 35px;
-  font-weight: bold;
-}
-
-/* Close button on hover */
-.close:hover,
-.close:focus {
-  color: red;
-  cursor: pointer;
-}
-
-/* Add Zoom Animation */
-.animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s
-}
-
-@-webkit-keyframes animatezoom {
-  from {-webkit-transform: scale(0)}
-  to {-webkit-transform: scale(1)}
-}
-
-@keyframes animatezoom {
-  from {transform: scale(0)}
-  to {transform: scale(1)}
 }
 
 .topnav {
