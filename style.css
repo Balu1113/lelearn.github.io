@@ -457,6 +457,9 @@ body{
   display: none;
 }
 @media (max-width: 600px) {
+  .column{
+    width:50%;
+  }
   .container .cover{
     display: none;
   }
